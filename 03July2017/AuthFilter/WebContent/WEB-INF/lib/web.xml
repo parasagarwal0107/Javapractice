@@ -1,0 +1,21 @@
+    <web-app>  
+     <servlet>  
+        <servlet-name>UsrServlet</servlet-name>  
+        <servlet-class>UsrServlet</servlet-class>  
+      </servlet>  
+      
+      <servlet-mapping>  
+        <servlet-name>UsrServlet</servlet-name>  
+        <url-pattern>/serv</url-pattern>  
+      </servlet-mapping>  
+        
+     <filter>  
+      <filter-name>f1</filter-name>  
+      <filter-class>Filter1</filter-class>  
+      </filter>  
+      <filter-mapping>  
+      <filter-name>f1</filter-name>  
+      <url-pattern>/serv</url-pattern>  
+      </filter-mapping>  
+        
+    </web-app>  
